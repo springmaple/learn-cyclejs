@@ -1,4 +1,3 @@
-import xs from 'xstream';
 import {run} from '@cycle/run';
 import {makeDOMDriver, div, input, p} from '@cycle/dom';
 
