@@ -1,5 +1,8 @@
-import {run} from '@cycle/run';
-import {makeDOMDriver, div, input, p} from '@cycle/dom';
+import { makeDOMDriver } from '@cycle/dom';
+import { run } from '@cycle/run';
+
+// noinspection ES6UnusedImports
+import Snabbdom from 'snabbdom-pragma';
 
 function main(sources) {
     const sinks = {
@@ -7,10 +10,10 @@ function main(sources) {
             .map(ev => ev.target.checked)
             .startWith(false)
             .map(toggled =>
-                div([
-                    input({attrs: {type: 'checkbox'}}), 'Toggle me',
-                    p(toggled ? 'ON' : 'off')
-                ])
+                <div>
+                    <input type="checkbox"/> Toggle me
+                    <p>{ toggled ? 'ON' : 'off' }</p>
+                </div>
             )
     };
     return sinks;

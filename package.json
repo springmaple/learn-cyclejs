@@ -15,6 +15,11 @@
     "xstream": "^11.14.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "snabbdom-pragma": "^2.8.0",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2",
