@@ -14,5 +14,8 @@ module.exports = {
     mode: "development",
     devServer: {
         historyApiFallback: true
+    },
+    output: {
+        publicPath: "/"  // https://stackoverflow.com/a/34628034/1640033
     }
 };
