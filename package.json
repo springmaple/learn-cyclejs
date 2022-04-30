@@ -14,14 +14,13 @@
     "@cycle/history": "^9.0.0",
     "@cycle/http": "^15.4.0",
     "@cycle/run": "^5.7.0",
+    "snabby": "^4.2.5",
     "xstream": "^11.14.0"
   },
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "babel-loader": "^8.2.5",
-    "babel-plugin-transform-react-jsx": "^6.24.1",
     "html-webpack-plugin": "^5.5.0",
-    "snabbdom-pragma": "^2.8.0",
     "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.8.1"
